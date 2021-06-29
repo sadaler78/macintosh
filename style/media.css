@@ -1,0 +1,55 @@
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 992px) {
+    .main__nav_block {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .main__nav_block {
+        margin-bottom: 20px;
+    }
+
+   
+}
+
+@media (max-width: 767px) {
+    .header__content_text {
+        width: 100%;
+        color: black;
+        font-weight: 400;
+        flex-grow: 1;
+    }
+    .header__content_link {
+        margin-top: 40px;
+    }
+    
+    .skills__bg {
+        position: relative;
+        width: 100%;
+    } 
+    
+    .skills_content {
+        flex-wrap: wrap-reverse;
+    }
+    
+    .product__icons_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+      }
+    
+}
+
+@media (max-width: 575px) {
+     .macintosh__title {
+         margin-top: 20px;
+         margin-bottom: 0;
+     }
+     .slider__content {
+        align-items: center;
+      }
+}
